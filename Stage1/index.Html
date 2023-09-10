@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Webpage</title>
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-    
+    <div class="Card">
+        <div class="image" >
+            <img src="Screenshot 2023-09-10 183431.png" alt="Ahmed Omran" data-testid="slackDisplayImage">
+        </div>
+
+        <div class="data">
+        
+            <div >
+           <strong>Name </strong> <article  data-testid="slackUserName">Ahmed Omran</article>
+            </div>
+            <div>
+                <strong>Time </strong> <article  id="time" data-testid="currentUTCTime"> </article>
+            </div>
+            <div >
+                <strong>Date </strong> <article  id="date" data-testid="currentDayOfTheWeek"></article>
+            </div>
+            <div>
+                <strong>Track </strong>  <article  id="tracker" data-testid="myTrack">Frontend|Backend</article>
+            </div>
+            <div>
+                <strong>URL </strong>  <a href="https://github.com/sapperberet/Frontend" class="num" id="repo" data-testid=“githubURL”>My GitHub Repositry</a>
+            </div>
+        </div>
+        
+        <script src="Script.js"></script>
+    </div>
 </body>
 </html>
